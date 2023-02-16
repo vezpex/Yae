@@ -1,0 +1,93 @@
+.button{
+  background-color:rgb(114, 137, 218);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  display: inline;
+  font-size: 20px;
+  margin: 4px 2px;
+  padding: 15px 35px;
+  text-decoration: none;
+  transition: 0.25s;
+  transition: box-shadow 0.2s;
+  z-index: 1;
+}
+.button:hover{
+  opacity: 0,9;
+  box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
+}
+.center {
+  position: absolute;
+  top: 250px;
+  left: 320px;
+}
+.TitleB{
+  color: rgb(255, 255, 255);
+  font-size: 100px;
+  text-align: center;
+  margin: auto;
+  text-decoration-line: underline;
+}
+.wp_b_box {
+  padding: 20px;
+  margin-top: 33px;
+  margin-left: 100px;
+  width: 500px;
+  height: 1160px;
+  background: rgb(90, 35, 97);
+  color: #ffffff;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  font-size: 16px;
+  opacity: 0.9;
+  box-shadow: 20px 20px 10px rgba(0,0,0,0.3);
+  z-index: 0;
+}
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.Card{
+  position: absolute;
+  top: 250px;
+  left: 700px;
+  opacity: 0.9;
+  padding-right: 5px;
+  animation: fadeIn 1s;
+}
+
+.MyMiko{
+  position: absolute;
+  top: 350px;
+  left: 320px;
+  background-color:rgb(218, 114, 183);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  display: inline;
+  font-size: 20px;
+  margin: 4px 2px;
+  padding: 15px 14px;
+  text-decoration: none;
+  transition: 0.25s;
+  transition: box-shadow 0.2s;
+
+}
+
+.MyMiko:hover{
+  opacity: 0,9;
+  box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 0.9; }
+}

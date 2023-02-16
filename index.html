@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      vezpex's informations 
+    </title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+     <video autoplay muted loop id="background-video">
+        <source src="Yaee.mp4" type="video/mp4">
+      </video>
+     <div class="wp_b_box">
+      <p class="TitleB"><strong> vezpex</strong></p>
+     </div>
+     <div class="center">
+      <a href="https://discord.gg/Y8nyzy4RQp" class="button" target="_blank">
+        Discord
+      </a>
+    </div>
+    <input type="button" class="MyMiko" value="My YaeMiko" style="background-color: rgb(221, 55, 185);" id="btn" onclick="clicked()">
+    <img src="My Yae.png" id="img" class="Card" hidden
+    width="1825"
+    height="auto">
+    <script>
+      function clicked(){
+        if(img==1){
+          document.getElementById("img").style.display="inline"
+          return img=0;
+        } else{
+          document.getElementById("img").style.display="none"
+          return img=1;
+        }
+      }
+    </script>
+  </body>
+</html>
